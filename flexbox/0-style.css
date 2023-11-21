@@ -180,13 +180,18 @@
   /* Grid
       ============================= */
   
-  ul.row {
-    display: flex;
+  .row
+      ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
+.row{
+    display: flex;
+}
+
+
   
   [class*='col-'] {
     padding: 0.5rem;
