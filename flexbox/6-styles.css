@@ -202,7 +202,7 @@
   /* Navbar
       ============================= */
   
-  .nav .nav-item {
+  .nav .nav-item + .nav-item {
     margin: 0;
     margin: var(--nav-item-margin);
   }
